@@ -1,0 +1,195 @@
+#td{
+    background-color: white;
+}
+
+@media only screen and (max-device-width: 500px){
+    
+    #box1.allbox{
+        left: 20%; 
+        margin-top: 10%; 
+        width: 60%;
+        height: 470px;
+        }
+    #box2.allbox{
+        left: 20%; 
+        margin-top: 65%;
+        width: 60%;
+        height: 470px;
+        }
+    #box3.allbox{
+        left: 20%; 
+        margin-top: 120%;
+        width: 60%;
+        height: 470px;
+        }
+    p{
+        font-style: italic;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    #buttonbox1.buttonbox{
+        height: 50px;
+        width: 400px;
+        left: 17%;
+        margin-top: 3%;
+        font-size: 20px;
+    }
+    #buttonbox0.buttonbox{
+        height: 50px;
+        width: 400px;
+        left: 17%;
+        margin-top: 3%;
+        font-size: 20px;
+    }
+
+}
+
+a:link{
+    text-decoration: none;
+}
+
+#b{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    position: static;
+    border-radius: 1%;
+    margin-top: 0px;
+    
+}
+
+.btmenu{
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    font-variant: small-caps;
+    height: 50px;
+    width: 125px;
+    position: absolute;
+    border-style: solid;
+    border-color: black;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.btmenu:hover {
+    text-shadow: gray 0.1em 0.1em 0.2em;
+    border: rosybrown 1px solid;
+    margin-top: 0px;
+    height: 55px;
+}
+
+#bt{
+    left: 30%;
+}
+
+#bt2{
+    left: 40%;
+}
+
+#bt3{
+    left: 50%;
+}
+
+#bt4{
+    left: 60%;
+}
+
+.buttonbox{
+    display: table-cell;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 13px;
+    text-align: center;
+    font-variant: small-caps;
+    height: 30px;
+    width: 120px;
+    border-style: solid;
+    border-color: black;
+    cursor: pointer;
+    left: 50%;
+    margin-top: 3%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#buttonbox0{}
+
+#buttonbox1{
+    float: left;
+    left: 27%;
+    position: absolute;
+    margin-top: 7%;
+}
+
+.buttonbox:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.img{
+    position: relative;
+    text-align: center;
+    opacity: 0.8;
+    margin-left: auto;
+    margin-right: auto; 
+    
+}
+
+.text{
+    text-shadow: 2px 2px 4px white;
+    color: black;
+    position: absolute;
+    bottom: 10px;
+    right: 2%;
+    font-size: 80px;
+}
+
+.allbox{
+    width: 20%;
+    height: 350px;
+    margin-top: 7%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    float: left;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.allbox:hover{
+    height: 355px;
+    width: 21%;
+}
+
+#box1{
+    left: 15%;
+}
+
+#box2{
+    left: 40%;
+}
+
+#box3{
+    left: 65%;
+}
+
+.titulo{
+    width: 30%;
+    height: 50px;
+    float: left;
+    font-size: 30px;
+    text-align: center;
+    font-variant: small-caps;
+    left: 3%;
+    text-align: center;
+    font-variant: small-caps;
+    position: absolute;
+}
+
+
+
