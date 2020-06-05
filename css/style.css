@@ -8,19 +8,25 @@
         left: 20%; 
         margin-top: 10%; 
         width: 60%;
-        height: 470px;
+        height: 600px;
         }
     #box2.allbox{
         left: 20%; 
-        margin-top: 65%;
+        margin-top: 80%;
         width: 60%;
-        height: 470px;
+        height: 600px;
         }
     #box3.allbox{
         left: 20%; 
-        margin-top: 120%;
+        margin-top: 150%;
         width: 60%;
-        height: 470px;
+        height: 600px;
+        }
+    #box4.allbox{
+        left: 20%; 
+        margin-top: 220%;
+        width: 60%;
+        height: 600px;
         }
     p{
         font-style: italic;
@@ -176,6 +182,11 @@ a:link{
 
 #box3{
     left: 65%;
+
+}
+#box4{
+    left: 15%;
+    margin-top: 40%;
 }
 
 .titulo{
